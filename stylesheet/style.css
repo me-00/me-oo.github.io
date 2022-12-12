@@ -108,7 +108,7 @@ p {
 }
 
 /* スマートフォン画面幅（画面幅が最大375pxまで）の場合、以下のスタイルを適用。 */
-@media screen and (max-width:375px) {
+@media screen and (max-width:430px) {
   .my_carousel_caption {
     font-size: 27px;    
   }
@@ -139,6 +139,11 @@ p {
 
 .about_us_bg {
   background-color: #FFE6A5;
+}
+@media screen and (max-width:430px) {
+  .img_pizza {
+    margin-left:-50px;
+  }
 }
 
 /* ----------------------------------------------- ギャラリー */
